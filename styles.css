@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+	bord-sizing:border-box;
+	margin:0;
+	padding: 0;
+}
+body{
+	background: rgba(173,216, 250, 0.5);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Quicksand', sans-serif;
+}
+.container{
+	background: rgba(255,255,255, 0.5);
+	text-align: center;
+	margin:20px auto;
+	border-radius: 8px;
+	padding: 30px;
+	max-width: 800px;
+	min-width: 500px;
+}
+.description{
+	margin:10px 0;
+}
+
+.products-holder {
+	display: flex;
+	margin: 20px 0;
+}
+
+.product{
+	border:1px solid rgb(220,220,220);
+	border-radius: 8px;
+	padding: 40px 10px;
+}
+.product:not(:last-child){
+	margin-right: 10px;
+}
+button{
+	background: rgb(255,165,0);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: rgb(255,255,255);
+	font-size: 17px;
+	padding: 6px 16px;
+	border-radius: 20px;
+	margin:5px;
+}
+button:hover{
+	background: rgb(255,255,255);
+}
+.card-holder{
+	border: 1px solid rgb(255,165,0);
+	border: 8px;
+	padding: 20px;
+}
+table td, table th{
+	text-align: left;
+	border-bottom: 1px solid rgb(220,220,220);
+}
+.card-holder hr {
+	border-bottom: 	1px solid rgb(220,220,220);
+	margin: 10px 0;
+
+}
+.card-totals {
+	margin-right: 0;
+	margin-left: auto;
+	margin-bottom: 20px
+}
+.card-buttons {
+	display: flex;
+	justify-content: flex-end;
+}
